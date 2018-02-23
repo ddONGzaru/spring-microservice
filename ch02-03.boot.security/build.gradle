@@ -6,11 +6,6 @@
 	compile fileTree(dir: 'libs', include: '*.jar')
 */
 
-// tomcat 대신 undertow를 사용하기 위하여 추가.
-configurations {
-	compile.exclude module: 'spring-boot-starter-tomcat'
-}
-
 dependencies {
 
 	/*
@@ -21,7 +16,10 @@ dependencies {
 
 	// spring-boot
 	compile 'org.springframework.boot:spring-boot-starter-web'
-	compile 'org.springframework.boot:spring-boot-starter-undertow'
+	compile 'org.springframework.boot:spring-boot-starter-security'
+
+	// jasypt
+	compile 'com.github.ulisesbocchio:jasypt-spring-boot-starter:1.18'
 
 	// geronimo-utils
 	compile 'io.geronimo:geronimo-utils:1.10.0.RELEASE'
@@ -31,13 +29,6 @@ dependencies {
         testCompile
     ------------------------------
     */
-	testCompile 'org.springframework.boot:spring-boot-starter-test'
-
-	/*
-    ------------------------------
-        runtime
-    ------------------------------
-    */
-	runtime 'org.springframework.boot:spring-boot-devtools'
+	testCompile 'org.springframework.boot:spring-boot-starter-test:2.0.0.RC2'
 
 }

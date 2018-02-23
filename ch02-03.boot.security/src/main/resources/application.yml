@@ -1,0 +1,13 @@
+
+security:
+  user:
+    name: ENC(jE87X9pNJoBL8faDq9oWUg==)
+    password: ENC(jE87X9pNJoBL8faDq9oWUg==)
+
+jasypt:
+  encryptor:
+    password: raon12#$
+
+
+
+

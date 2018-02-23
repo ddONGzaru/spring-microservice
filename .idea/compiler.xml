@@ -9,6 +9,16 @@
       <module name="ch02-01.boot.rest_test" target="1.8" />
       <module name="ch02-02.boot.hateoas_main" target="1.8" />
       <module name="ch02-02.boot.hateoas_test" target="1.8" />
+      <module name="ch02-02.boot.security.oauth2_main" target="1.8" />
+      <module name="ch02-02.boot.security.oauth2_test" target="1.8" />
+      <module name="ch02-03.boot.oauth2_main" target="1.8" />
+      <module name="ch02-03.boot.oauth2_test" target="1.8" />
+      <module name="ch02-03.boot.security.oauth2_main" target="1.8" />
+      <module name="ch02-03.boot.security.oauth2_test" target="1.8" />
+      <module name="ch02-03.boot.security_main" target="1.8" />
+      <module name="ch02-03.boot.security_test" target="1.8" />
+      <module name="ch02-04.boot.oauth2_main" target="1.8" />
+      <module name="ch02-04.boot.oauth2_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
