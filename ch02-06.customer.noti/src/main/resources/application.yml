@@ -1,0 +1,21 @@
+
+server:
+  host: 118.47.55.168
+
+spring:
+
+  rabbitmq:
+    addresses: ${server.host}:5672,${server.host}:5682,${server.host}:5692
+    username: admin
+    password: admin
+
+  mail:
+    host: localhost
+    port: 2525
+
+  main.web-environment: ${web:false}
+
+
+
+
+

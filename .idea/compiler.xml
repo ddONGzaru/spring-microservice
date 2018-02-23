@@ -17,8 +17,20 @@
       <module name="ch02-03.boot.security.oauth2_test" target="1.8" />
       <module name="ch02-03.boot.security_main" target="1.8" />
       <module name="ch02-03.boot.security_test" target="1.8" />
+      <module name="ch02-04.boot._main" target="1.8" />
+      <module name="ch02-04.boot._test" target="1.8" />
+      <module name="ch02-04.boot.messaging_main" target="1.8" />
+      <module name="ch02-04.boot.messaging_test" target="1.8" />
       <module name="ch02-04.boot.oauth2_main" target="1.8" />
       <module name="ch02-04.boot.oauth2_test" target="1.8" />
+      <module name="ch02-05.boot.messaging_main" target="1.8" />
+      <module name="ch02-05.boot.messaging_test" target="1.8" />
+      <module name="ch02-05.customer_main" target="1.8" />
+      <module name="ch02-05.customer_test" target="1.8" />
+      <module name="ch02-06.customer.noti_main" target="1.8" />
+      <module name="ch02-06.customer.noti_test" target="1.8" />
+      <module name="ch02-06.customer_main" target="1.8" />
+      <module name="ch02-06.customer_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

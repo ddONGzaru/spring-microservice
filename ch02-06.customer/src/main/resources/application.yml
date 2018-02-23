@@ -1,0 +1,19 @@
+
+server:
+  host: 118.47.55.168
+
+spring:
+
+  rabbitmq:
+    addresses: ${server.host}:5672,${server.host}:5682,${server.host}:5692
+    username: admin
+    password: admin
+
+  h2.console:
+    enabled: true
+    path: /h2
+
+
+
+
+

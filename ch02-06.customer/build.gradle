@@ -16,10 +16,13 @@ dependencies {
 
 	// spring-boot
 	compile 'org.springframework.boot:spring-boot-starter-web'
-	compile 'org.springframework.boot:spring-boot-starter-hateoas'
+	compile 'org.springframework.boot:spring-boot-starter-amqp'
+	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 
-
+	compile 'org.springframework.data:spring-data-rest-webmvc'
 	compile 'org.springframework.data:spring-data-rest-hal-browser'
+
+    runtime 'com.h2database:h2:1.4.196'
 
 	// geronimo-utils
 	compile 'io.geronimo:geronimo-utils:1.10.0.RELEASE'
