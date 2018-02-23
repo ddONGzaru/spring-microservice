@@ -31,6 +31,10 @@
       <module name="ch02-06.customer.noti_test" target="1.8" />
       <module name="ch02-06.customer_main" target="1.8" />
       <module name="ch02-06.customer_test" target="1.8" />
+      <module name="ch02-07.boot.actuator_main" target="1.8" />
+      <module name="ch02-07.boot.actuator_test" target="1.8" />
+      <module name="ch02-08.boot.swagger_main" target="1.8" />
+      <module name="ch02-08.boot.swagger_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

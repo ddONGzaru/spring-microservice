@@ -1,0 +1,34 @@
+
+/*
+	compile('org.springframework.boot:spring-boot-starter')
+	compile project(':project-submodule')
+	compile files('../libs/javax.jms.jar')
+	compile fileTree(dir: 'libs', include: '*.jar')
+*/
+
+dependencies {
+
+	/*
+    ------------------------------
+        compile
+    ------------------------------
+    */
+
+	// spring-boot
+	compile 'org.springframework.boot:spring-boot-starter-web'
+	compile 'org.springframework.boot:spring-boot-starter-hateoas'
+	compile 'org.springframework.boot:spring-boot-starter-actuator'
+
+	compile 'org.springframework.data:spring-data-rest-hal-browser'
+
+	// geronimo-utils
+	compile 'io.geronimo:geronimo-utils:1.10.0.RELEASE'
+
+	/*
+    ------------------------------
+        testCompile
+    ------------------------------
+    */
+	testCompile 'org.springframework.boot:spring-boot-starter-test'
+
+}

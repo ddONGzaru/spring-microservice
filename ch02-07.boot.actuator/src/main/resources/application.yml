@@ -1,0 +1,9 @@
+
+management:
+  security:
+    enabled: false
+
+info:
+  app.name: Boot actuator
+  app.description: My Greetings Service
+  app.version: 1.0.0

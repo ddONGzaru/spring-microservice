@@ -5,4 +5,6 @@ include 'ch02-01.boot.rest',
         'ch02-04.boot.oauth2',
         'ch02-05.boot.messaging',
         'ch02-06.customer',
-        'ch02-06.customer.noti'
+        'ch02-06.customer.noti',
+        'ch02-07.boot.actuator',
+        'ch02-08.boot.swagger'
